@@ -423,6 +423,10 @@ section
     width:80%;
 }
 
+.progress-line.ml span
+{
+    width:70%;
+}
 .progress-line span::after{
     position:absolute;
     padding:1px 8px;
@@ -459,6 +463,11 @@ section
 .progress-line.dbms span::after
 {
     content:"80";
+}
+
+.progress-line.ml span::after
+{
+    content:"70";
 }
 
 .progress-line span::before{
@@ -976,6 +985,8 @@ contact-list li a:hover{
         opacity: 1;
     }
 }
+
+
 
 
 
